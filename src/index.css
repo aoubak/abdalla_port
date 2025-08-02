@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  /* @apply bg-gray-100 text-gray-900 font-sans; */
+  font-family: "Outfit", sans-serif;
+  background-color: #404040; /* bg-neutral-900 */
+  /* neutral-900 */
+  color: #111827; /* text-gray-900 */
+
+}
+
+/* @custom-variant dark (&:where(.dark, .dark *))   */
