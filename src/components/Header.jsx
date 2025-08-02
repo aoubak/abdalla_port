@@ -30,11 +30,11 @@ function Header() {
                         <li><a href="/" className='hover:text-neutral-400 duration-400 text-[14px] rounded-md px-2 py-2 ' >Reviews</a></li>
                     </ul>
                     {/* mobile view */}
-                    <ul id='menu' className={` ${isMenuOpen ? "block" : "hidden"} md:hidden absolute top-15 w-1/3 right-0 md:flex space-y-4 md:relative gap-4 bg-neutral-300 border-1 border-neutral-500/35 dark:bg-neutral-800/75 rounded-2xl backdrop-blur-sm px-2 py-3 `}>
-                        <li><a href="/" className='bg-neutral-100 text-neutral-800 duration-400 text-[14px] rounded-lg px-2 py-2 ' >Home</a></li>
-                        <li><a href="/" className='hover:text-neutral-400 duration-400 text-[14px] rounded-md px-2 py-2 ' >About</a></li>
-                        <li><a href="/" className='hover:text-neutral-400 duration-400 text-[14px] rounded-md px-2 py-2 ' >Work</a></li>
-                        <li><a href="/" className='hover:text-neutral-400 duration-400 text-[14px] rounded-md px-2 py-2 ' >Reviews</a></li>
+                    <ul id='menu' className={` ${isMenuOpen ? "block" : "hidden"} md:hidden absolute top-15 w-1/3 right-0  space-y-1 md:relative gap-4 bg-neutral-300 border-1 border-neutral-500/35 dark:bg-neutral-800/75 rounded-2xl backdrop-blur-sm px-2 py-3 `}>
+                        <li><a href="/" className='bg-neutral-100 block text-neutral-800 duration-400 text-[14px] rounded-lg px-2 py-2 ' >Home</a></li>
+                        <li><a href="/" className='hover:text-neutral-400 block  duration-400 text-[14px] rounded-md px-2 py-2' >About</a></li>
+                        <li><a href="/" className='hover:text-neutral-400 block duration-400 text-[14px] rounded-md px-2 py-2 ' >Work</a></li>
+                        <li><a href="/" className='hover:text-neutral-400 block duration-400 text-[14px] rounded-md px-2 py-2 ' >Reviews</a></li>
                     </ul>
                 </nav>
 
