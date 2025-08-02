@@ -5,7 +5,7 @@ import About from "./components/About";
 import Tools from "./components/Tools";
 import Portfolio from "./components/Portfolio";
 import Reviews from "./components/Reviews";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
 function App() {
