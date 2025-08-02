@@ -36,7 +36,7 @@ function Contact() {
           </div>
           </div>
           {/* form */}
-            <div className="md:w-1/2">
+            <div className="mt-4 md:mt-0 md:w-1/2">
                 <form className="bg-neutral-800 border-1 border-neutral-500/35 rounded-2xl p-4">
                 <div className="flex md:flex-row gap-4">
                     <div className="mb-4">

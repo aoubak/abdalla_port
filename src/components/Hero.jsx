@@ -6,8 +6,8 @@ import { ArrowDown, ArrowDownToLine } from "lucide-react";
 
 function Hero() {
   return (
-    <section className="container mx-auto md:pt-20">
-      <div className="md:px-14 h-screen">
+    <section className="container mx-auto mb-4 md:pt-20">
+      <div className="md:px-14 md:h-screen">
         <div className="flex flex-col md:flex-row pt-30 md:pt-0 md:justify-between  h-full items-center space-x-2  ">
           <div className="px-4 md:w-1/2 md:p-0  ">
           <div className="flex items-center space-x-2 mb-4 bg-neutral-800 border-1 border-neutral-500/35 w-33 rounded-full px-2">
@@ -29,7 +29,7 @@ function Hero() {
             </button>
             </div>
           </div>
-          <div className="md:w-1/2 bg-gradient-to-t from-blue-500/30   to-purple-500/0 rounded-4xl">
+          <div className="md:w-1/2 hidden bg-gradient-to-t from-blue-500/30   to-purple-500/0 rounded-4xl">
             <img
               src={images.heroIMage}
               alt="Profile"
