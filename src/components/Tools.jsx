@@ -62,7 +62,7 @@ return (
                     Node.js, and Figma.
                 </p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-2 ">
                 {tools.map((tool, idx) => (
                     <div
                         key={idx}
