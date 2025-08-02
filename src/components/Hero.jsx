@@ -29,7 +29,7 @@ function Hero() {
             </button>
             </div>
           </div>
-          <div className="md:w-1/2 hidden bg-gradient-to-t from-blue-500/30   to-purple-500/0 rounded-4xl">
+          <div className="md:w-1/2 hidden md:block bg-gradient-to-t from-blue-500/30   to-purple-500/0 rounded-4xl">
             <img
               src={images.heroIMage}
               alt="Profile"
